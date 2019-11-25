@@ -13,6 +13,8 @@ users_input.each do |string|
   elements = string.to_i
   puts "#{elements}"
 end
+end 
+input_to_index
 
 board = [" ", " ", " "]
 def update_array_at_with(array, index, value)
