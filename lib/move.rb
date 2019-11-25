@@ -13,7 +13,7 @@ users_input.each do |string|
   elements = string.to_i
   puts "#{elements}"
 end
-end 
+end
 input_to_index
 
 board = [" ", " ", " "]
