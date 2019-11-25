@@ -7,3 +7,19 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+user_input = ["1","2","3","4","5","6","7","8","9"]
+def input_to_index(users_input)
+users_input.each do |string|
+  elements = string.to_i
+  puts "#{elements}"
+end  
+
+board = [" ", " ", " "]
+def update_array_at_with(array, index, value)
+  array[index] = value
+end
+
+update_array_at_with(board, 0, "X")
+
+
+  
