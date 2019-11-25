@@ -12,7 +12,7 @@ def input_to_index(users_input)
 users_input.each do |string|
   elements = string.to_i
   puts "#{elements}"
-end  
+end
 
 board = [" ", " ", " "]
 def update_array_at_with(array, index, value)
@@ -20,6 +20,3 @@ def update_array_at_with(array, index, value)
 end
 
 update_array_at_with(board, 0, "X")
-
-
-  
